@@ -7,40 +7,33 @@ body {
   border-left: 1px solid black;
   margin-top: 15px;
 }
-
 .stie-title {
   width: 100%;
   max-width: 410px;
   margin-left: auto;
   margin-right: auto;
 }
-
 .selest-title {
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
   margin: 0;
 }
-
 .choose-select {
   width: 100%;
   max-width: 300px;
   margin-top: 15px;
 }
-
-
 .result-wrapper{
   display: flex;
   align-items: center;
 }
-
 .result__textin {
   font-size: 20px;
   font-weight: 600;
   margin: 0;
   margin-right: 10px;
 }
-
 .result__textend{
   font-size: 17px;
   font-weight: 600;
@@ -50,7 +43,6 @@ body {
 .title {
   padding-bottom: 15px;
 }
-
 .pizza-size-title {
   font-size: 18px;
   font-weight: 600;
@@ -58,7 +50,6 @@ body {
   margin: 0;
   margin-top: 20px;
 }
-
 .radio-label {
   width: 90px;
   height: 90px;
@@ -68,23 +59,17 @@ body {
   padding-left: 22px;
   margin: 10px;
 }
-
-
-
 .radio-label:hover {
   transition: all 0.2s ease;
   background-color: rgba(242, 255, 0, 0.353);
 }
-
 .radio-label:active {
   box-shadow:  2px 2px 2px 2px rgba(0, 0, 0, 0.377);
   background-color: rgba(251, 255, 0, 0.829);          
 }
-
 .pizza-size-wrapper {
   margin-top: 20px;
 }
-
 .pizza-size-result {
   font-size: 17px;
   font-weight: 600;
@@ -92,7 +77,6 @@ body {
   margin-top: 20px;
   margin-left: 10px
 }
-
 .addresult__texting {
   font-size: 18px;
   font-weight: 600;
@@ -100,7 +84,6 @@ body {
   margin: 0;
   margin-top: 20px;
 }
-
 .add-vegetables-list {
   margin: 0;
   padding: 0;
@@ -108,7 +91,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 .addbox__list {
   margin: 0;
   padding: 0;
@@ -118,38 +100,31 @@ body {
   flex-wrap: wrap;
   margin-top: 20px;
 }
-
 .addVegetables-item {
   list-style-type: none;
   width: 190px;
   padding: 5px;
   border-radius: 5px;
 }
-
 .addVegetables-item:hover {
   background: rgba(0, 0, 0, 0.158);
 }
-
 .addVegetables-item:active {
   background: rgba(0, 0, 0, 0.400);
 }
-
 .addVegetables-label {
   font-size: 18px;
   font-weight: 500;
   margin-left: 10px;
 }
-
 .pizzaSize-radio {
   display: none;
 }
-
 .add-list__item {
   margin: 0;
   margin: 3px;
   list-style-type:decimal;
 }
-
 .addbox__text {
   font-size: 18px;
   font-weight: 600;
@@ -157,33 +132,27 @@ body {
   margin: 0;
   margin-top: 20px;
 }
-
 .addtionals-item {
   width: 120px;
   padding: 5px;
   border-radius: 5px;
   list-style-type: none;
 }
-
 .addtionals-item:hover {
   background: rgba(0, 0, 0, 0.158);
 }
-
 .addtionals-item:active {
   background: rgba(0, 0, 0, 0.400);
 }
-
 .ustida-list {
   height: 110px;
 }
 .addending__texting {
   height: 50px;
 }
-
 .selection-section {
   box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.377);
 }
-
 .order-section {
   box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.377); 
 }
