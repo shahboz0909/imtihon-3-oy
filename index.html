@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <div class="container ">
+    <h1 class="hero-heading text-center mt-5 mb-3 text-danger">Pizza center</h1>
+    <div class="container__wrapper js-container-wrapper row  justify-content-between ">
+      <div class="selection-section js-selection-section col-7 border border-1 border-danger py-3 rounded">
+
+        <form id="form-btn" action="https://echo.htmlacademy.ru" method="post">
+          <p class="form__text-non fw-bold">Noni qanaqa bo'lsin?</p>
+          <div class="select-wrapper mb-5">
+            <select class="form__select w-25  border-1 border-danger fw-bold" id="form__select">
+            </select>
+          </div>
+          <div class="pizza-size-box ">
+            <p class="form__text-kattalik fw-bold fs-4 text-danger">Kattaligi</p>
+          </div>
+          <div class="add-vegetables-wrapper">
+            <p class="form__text-turi fw-bold fs-4 text-danger">Ustida nimalar bo'lsin</p>
+            <ul class="add-vegetables-list"></ul>
+          </div>
+
+          <div class="addbox">
+            <p class="addbox__text fs-4 fw-bold text-danger">Qo'shimchalar</p>
+            <ul class="addbox__list"></ul>
+          </div>
+        </form>
+        </select> 
+      </div>
+      <div class="order-section js-order-section col-4 border border-1 border-danger py-3 rounded">
+
+        <div class="result-wrapper">
+        <p class="result__textin fw-bold text-danger">Noni:</p>
+        <p class="result__textend"></p>
+      </div>
+
+      <div class="result-wrapper">
+        <p class="pizza-size-title fw-bold text-danger">Kattalgi:</p>
+        <p class="pizza-size-result"></p>
+      </div>
+
+      <div class="addresult-wrapper">
+        <p class="addresult__texting fw-bold text-danger">Ustida:</p>
+        <ul class="ustida-list overflow-auto"></ul>
+      </div>
+
+      <div class="addending">
+        <p class="addending__text fw-bold text-danger">Qo'shimcha:</p>
+        <ul class="addending__texting"></ul>
+      </div>
+      <button type="submit" form="form-btn" class="btn btn-danger rounded-pill">Buyrtma berish</button></div>
+    </div>
+
+    
+  </div>
+
+  </div>
+
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/addelement.js"></script>
+</body>
+</html>
